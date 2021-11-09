@@ -1,4 +1,8 @@
 import { Module } from '@nestjs/common';
+import { ReviewController } from './review.controller';
+import { ReviewController } from './review.controller';
 
-@Module({})
+@Module({
+  controllers: [ReviewController]
+})
 export class ReviewModule {}
